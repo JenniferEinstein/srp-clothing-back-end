@@ -1,0 +1,31 @@
+{
+  "name": "srp-clothing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JenniferEinstein/srp-clothing-back-end.git"
+  },
+  "keywords": [
+    "clothing",
+    "clothes",
+    "pursuit",
+    "express",
+    "backend"
+  ],
+  "author": "Jennifer Einstein and Saraii Thomas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JenniferEinstein/srp-clothing-back-end/issues"
+  },
+  "homepage": "https://github.com/JenniferEinstein/srp-clothing-back-end#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "pg-promise": "^11.5.3"
+  }
+}
