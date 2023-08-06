@@ -3,6 +3,7 @@ CREATE DATABASE sareinstein;
 
 \c sareinstein;
 DROP TABLE IF EXISTS clothing;
+DROP TABLE IF EXISTS users;
 
 CREATE TABLE clothing (
     clothing_id serial PRIMARY KEY,
@@ -19,10 +20,18 @@ CREATE TABLE clothing (
 
 CREATE TABLE users (
     user_id serial PRIMARY KEY,
-    username VARCHAR (30) UNIQUE NOT NULL,
-    password VARCHAR (20) NOT NULL,
+    username TEXT UNIQUE NOT NULL,
     user_role TEXT,
-    useremail TEXT VARCHAR (50) UNIQUE,
-    user_address TEXT,
-    user_phone TEXT
+    useremail TEXT UNIQUE,
 )
+
+
+-- CREATE TABLE users (
+--     user_id serial PRIMARY KEY,
+--     username TEXT UNIQUE NOT NULL,
+--     password TEXT NOT NULL,
+--     user_role TEXT,
+--     useremail TEXT UNIQUE,
+--     user_address TEXT,
+--     user_phone TEXT
+-- )

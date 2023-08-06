@@ -18,6 +18,12 @@ app.get("/", (req, res) => {
 });
 
 
+// clothing ROUTES (implement the index route that uses pg-promise to query your db)
+const clothingController = require("./controllers/clothingController.js");
+
+app.use("/clothing", clothingController);
+
+
 
 // 404 PAGE
 app.get("*", (req, res) => {

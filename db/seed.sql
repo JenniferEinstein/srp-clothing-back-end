@@ -31,7 +31,7 @@ VALUES
 ('Cool Loafer', 'mens-shoes', 250.00, true, 'India', true, 'Suede, Leather', 04/09/2022, 'Sarai'),
 ('Oxford Dress Shoes', 'mens-shoes', 315.00, false, 'Turkey', false, 'Suede, Nubuck', 06/15/2021),
 ('X078 Sneaker', 'mens-shoes', 275.00, true, 'China', true, 'Leather, Rubber, Synthetic Leather, Shellac', 02/23/2023, 'Sarai'),
-('X02 Running Sneaker', 'mens-shoes', 200.00, false, 'China', true, 'Leather, Rubber, Shellac', 02/17/2023, 'Sarai')
+('X02 Running Sneaker', 'mens-shoes', 200.00, false, 'China', true, 'Leather, Rubber, Shellac', 02/17/2023, 'Sarai');
 
 
 INSERT INTO users (username, password, user_role, useremail)
