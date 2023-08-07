@@ -1,6 +1,21 @@
 const express = require("express");
 const clothing = express.Router();
-const {getAllClothing} = require("../queries/clothing");
+const {
+    getAllClothing,
+    getClothingItem,
+    createClothingItem,
+    deleteClothingItem,
+    updateClothingItem} = require("../queries/clothing");
+
+
+/*
+
+
+const { 
+    checkNameExists,
+    checkBoolean,
+   } = require("../validations/checkClothing.js");
+*/
 
 
 // === INDEX === 
