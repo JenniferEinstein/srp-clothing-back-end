@@ -9,7 +9,7 @@ CREATE TABLE clothing (
     clothing_id serial PRIMARY KEY,
     name TEXT NOT NULL,
     category TEXT,
-    cost NUMERIC(5,2),
+    cost NUMERIC(5,2) NOT NULL,
     in_stock BOOLEAN,
     country TEXT,
     handwash_only BOOLEAN,
