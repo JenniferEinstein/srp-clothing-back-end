@@ -14,8 +14,10 @@ const getAllClothingImages = async (clothing_id) => {
   }
 };
 
-const getClothingImages = async (id) => {
+const getClothingImage = async (id) => {
     try {
+      console.log("This is a get route test")
+      console.log(id)
       const oneClothingImage = await db.one("SELECT * FROM clothing_images WHERE id=$1", id);
       return oneClothingImage;
     } catch (error) {
@@ -62,7 +64,7 @@ const updateClothingImage = async (clothing_id, image_filename) => {
 
 module.exports = {
   getAllClothingImages,
-  getClothingImages,
+  getClothingImage,
   createClothingImage,
   deleteClothingImage,
   updateClothingImage

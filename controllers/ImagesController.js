@@ -6,7 +6,7 @@ const { getClothingItem } = require("../queries/clothing")
 const images = express.Router({ mergeParams: true });
 const {
     getAllClothingImages,
-    getClothingImages,
+    getClothingImage,
     createClothingImage,
     deleteClothingImage,
     updateClothingImage
@@ -26,9 +26,14 @@ images.get("/", async (req, res) => {
 //SHOW
 images.get("/:imageId", async (req, res) => {
     try {
-      const clothingId = req.params.id;
-      const {imageId} = req.params.imageId;
-      const clothingImage = await getClothingImages(imageId,clothingId);
+
+      console.log("This is a show route, test.")
+      console.log(req.params)
+      // const clothingId = req.params.id;
+      const imageId = req.params.imageId;
+      console.log(imageId)
+      //  When you make changes, please stick to one change at a time SARAI!!! Then log.
+      const clothingImage = await getClothingImage(imageId);
       if (clothingImage) {
         res.json(clothingImage);
       } else {
