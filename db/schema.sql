@@ -2,6 +2,9 @@ DROP DATABASE IF EXISTS sareinstein;
 CREATE DATABASE sareinstein;
 
 \c sareinstein;
+
+DROP TABLE IF EXISTS clothing_images;
+
 DROP TABLE IF EXISTS clothing;
 -- DROP TABLE IF EXISTS users;
 
@@ -15,11 +18,18 @@ CREATE TABLE clothing (
     handwash_only BOOLEAN,
     material TEXT,
     created_on DATE,
-    username TEXT   
+    username TEXT
 );
 
+CREATE TABLE clothing_images (
+  id SERIAL PRIMARY KEY,
+  clothing_id INTEGER REFERENCES clothing(clothing_id),
+  image_filename VARCHAR(255)
+);
+
+
 -- CREATE TABLE users (
---     user_id serial PRIMARY KEY,
+--     user_id imagserial PRIMARY KEY,
 --     username TEXT UNIQUE NOT NULL,
 --     user_role TEXT,
 --     useremail TEXT UNIQUE,
