@@ -8,6 +8,8 @@ const {
     updateClothingItem
     } = require("../queries/clothing");
 
+    const ImagesController = require("./ImagesController"); // Adjust the path to your router file
+    clothing.use("/:clothingId/images", ImagesController);  
 
 const { 
     checkName,

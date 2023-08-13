@@ -31,7 +31,7 @@ VALUES
 ('Designer Leather Belt Medium Decal', 'mens-belts', 500.00, true, 'Bangladesh', true, 'leather, metal, gold plated', '03/24/2023', 'Sarai'),
 ('Designer Leather Belt Small Decal', 'mens-belts', 435.00, true, 'Bangladesh', true, 'leather, metal, gold plated', '03/24/2023', 'Sarai'),
 ('Knee-Hight Crew Socks ', 'mens-socks', 10.00, true, 'China', false, 'cotton, polyester', '07/09/2022', 'Sarai'),
-('Structured Fidora', 'mens-hats', 25.00, true, 'China', false, 'cotton, polyester', '04/01/2022', 'Sarai'),
+('Structured Fedora', 'mens-hats', 25.00, true, 'China', false, 'cotton, polyester', '04/01/2022', 'Sarai'),
 -- Men's Shoes 
 ('Cool Loafer', 'mens-shoes', 250.00, true, 'India', true, 'Suede, Leather', '04/09/2022', 'Sarai'),
 ('Oxford Dress Shoes', 'mens-shoes', 315.00, false, 'Turkey', false, 'Suede, Nubuck',' 06/15/2021', 'Sarai'),
@@ -45,6 +45,50 @@ VALUES
 -- ('Jennifer', 'password', 'owner', 'jennifereinstein@pursuit.org')
 
 
+INSERT INTO clothing_images (clothing_id, image_filename)
+VALUES
+  (1, '../public/images/floral_top.jpg'),
+  (2, '../public/images/spaghetti_strap_top_pink.jpg'),
+  (3, '../public/images/ankle_boots.jpg'),
+  (4, '../public/images/hat-shapeflexer-worn.jpg'),
+  (4, '../public/images/hat-shapeflexer.jpg'),
+  (5, '../public/images/Brookltn-Dodger-cap.jpg'),
+  (6, '../public/images/tights-striped-orange.jpg'),
+  (7, '../public/images/scarf.jpg'),
+  (8, '../public/images/floral-romper.jpg'),
+  (9, '../public/images/skirt-floral.jpg'),
+  (10, '../public/images/sundress-white.jpg'),
+  (11, '../public/images/summer-dress-detail.jpg'),
+  (11, '../public/images/summer-dress.jpg'),
+--   Men's
+  (12, '../public/images/Box-tee-details.png'),
+  (12, '../public/images/Box-cut-tee-home.png'),
+  (13, '../public/images/soft-polo-details.png'),
+  (13, '../public/images/soft-polo-home.png'),
+  (14, '../public/images/linen-shirt-details.png'),
+  (14, '../public/images/linen-shirt-home.png'),
+  (15, '../public/images/scrunch-sleeve-swearshirt-details.png'),
+  (15, '../public/images/scrunch-sleeve-swearshirt-home.png'),
+  (16, '../public/images/ripped-jeans-details.png'),
+  (16, '../public/images/ripped-jeans-home.png'),
+  (17, '../public/images/tailored-chinos-details.png'),
+  (17, '../public/images/tailored-cut-chinos.png'),
+  (18, '../public/images/slim-fit-jean-details.png'),
+  (18, '../public/images/slim-fit-jean-home.png'),
+  (19, '../public/images/Designer-belt-small.png'),
+  (20, '../public/images/Designer-belt-medium.png'),
+  (21, '../public/images/crew-socks.png'),
+  (22, '../public/images/fedora-details.png'),
+  (22, '../public/images/fedora.png'),
+  (23, '../public/images/cool-loafer-details.png'),
+  (23, '../public/images/cool-loafer-details2.png'),
+  (23, '../public/images/cool-loafer-home.png'),
+  (24, '../public/images/oxford-details.png'),
+  (24, '../public/images/oxford-home.png'),
+  (25, '../public/images/x078-details.png'),
+  (25, '../public/images/x078.png'),
+  (26, '../public/images/x02-details.png'),
+  (26, '../public/images/x02.png');
 
 
 
