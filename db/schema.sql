@@ -19,7 +19,7 @@ CREATE TABLE clothing (
   material TEXT,
   created_on DATE,
   username TEXT,
-  image VARCHAR(255)
+  image VARCHAR(500)
 );
 
 -- CREATE TABLE clothing_images (
