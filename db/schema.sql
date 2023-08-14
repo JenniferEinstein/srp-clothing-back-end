@@ -3,29 +3,30 @@ CREATE DATABASE sareinstein;
 
 \c sareinstein;
 
-DROP TABLE IF EXISTS clothing_images;
+-- DROP TABLE IF EXISTS clothing_images;
 
 DROP TABLE IF EXISTS clothing;
 -- DROP TABLE IF EXISTS users;
 
 CREATE TABLE clothing (
-    clothing_id serial PRIMARY KEY,
-    name TEXT NOT NULL,
-    category TEXT,
-    cost NUMERIC(5,2) NOT NULL,
-    in_stock BOOLEAN,
-    country TEXT,
-    handwash_only BOOLEAN,
-    material TEXT,
-    created_on DATE,
-    username TEXT
+  clothing_id serial PRIMARY KEY,
+  name TEXT NOT NULL,
+  category TEXT,
+  cost NUMERIC(5,2) NOT NULL,
+  in_stock BOOLEAN,
+  country TEXT,
+  handwash_only BOOLEAN,
+  material TEXT,
+  created_on DATE,
+  username TEXT,
+  image VARCHAR(255)
 );
 
-CREATE TABLE clothing_images (
-  id SERIAL PRIMARY KEY,
-  clothing_id INTEGER REFERENCES clothing(clothing_id),
-  image_filename VARCHAR(255)
-);
+-- CREATE TABLE clothing_images (
+--   id SERIAL PRIMARY KEY,
+--   clothing_id INTEGER REFERENCES clothing(clothing_id),
+--   image_filename VARCHAR(255)
+-- );
 
 
 -- CREATE TABLE users (
