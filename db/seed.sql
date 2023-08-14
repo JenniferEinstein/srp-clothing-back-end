@@ -3,21 +3,21 @@
 INSERT INTO clothing (name, category, cost, in_stock, country, handwash_only, material, created_on, username, image)
 VALUES
 -- Women's Tops
-('Floral top', 'women-tops', 25.00, true, 'Viet nam', false, 'cotton, polyester', '8/05/2023', 'Jennifer',''),
-('Spaghetti strap top', 'women-tops', 35.00, true, 'Greece', false, 'cotton, ', '8/05/2023', 'Jennifer',''),
+('Floral top', 'women-tops', 25.00, true, 'Viet nam', false, 'cotton, polyester', '8/05/2023', 'Jennifer','https://images.urbndata.com/is/image/Anthropologie/4111609690165_038_b3?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=960'),
+('Spaghetti strap top', 'women-tops', 35.00, true, 'Greece', false, 'cotton, ', '8/05/2023', 'Jennifer','https://i.ebayimg.com/images/g/UlYAAOSwnFFisw4E/s-l1200.jpg'),
 -- Women's Shoes
-('Ankle Boots', 'women-shoes', 184.9, true, 'unknown', true, 'leather', '8/05/2023', 'Jennifer',''),
+('Ankle Boots', 'women-shoes', 185.00, true, 'unknown', true, 'leather', '8/05/2023', 'Jennifer','https://i.pinimg.com/736x/8e/86/94/8e869408ae4912ab46b71dcd10e038d3.jpg'),
 -- Women's Accessories
-('Shapeflexer hat', 'women-hats', 45.00, true, 'China', false, 'cotton', '8/05/2023', 'Jennifer',''),
-('Brooklyn Dodgers hat', 'women-hats', 20.00, true, 'China', true, 'denim', '8/05/2023', 'Jennifer',''),
-('Striped tights', 'women-socks', 13.50, false, 'China', false, 'cotton', '8/05/2023', 'Jennifer',''),
-('Scarf', 'women-accessories', 70.00, true, 'China', true, 'silk', '8/05/2023', 'Jennifer',''),
+('Shape Flexer hat', 'women-hats', 45.00, true, 'China', false, 'cotton', '8/05/2023', 'Jennifer','https://images.urbndata.com/is/image/Anthropologie/83138693_010_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=960'),
+('Petite Diamond Band', 'women-hats', 295.00, true, 'China', true, 'diamond, sterling-silver', '8/05/2023', 'Jennifer','https://image.brilliantearth.com/media/product_images/6B/BE5D300-S_2.jpg'),
+('Velvet De-Lux Tights', 'women-socks', 55.00, false, 'China', false, 'nylon, elastane', '8/05/2023', 'Jennifer','https://www.wolfordshop.com/on/demandware.static/-/Sites-wolfordb2c-catalog/default/dw73082352/images/PDP/10687_7005_500.jpg'),
+('Super Silk Quest Scarf', 'women-accessories', 510.00, true, 'China', true, 'silk', '8/05/2023', 'Jennifer','https://assets.hermes.com/is/image/hermesproduct/super-silk-quest-scarf-90--004011S%2008-worn-1-0-0-800-800_g.jpg'),
 -- Women's Bottoms
-('Floral Romper', 'women', 34.95, true, 'Australia', false, 'cotton, rayon', '8/12/2023', 'Jennifer',''),
-('Crinkled skirt', 'women-bottoms', 45.00, false, 'USA', false, 'cotton', '8/05/2023', 'Jennifer',''),
+('Floral Romper', 'women', 80.00, true, 'Australia', false, 'cotton, rayon', '8/12/2023', 'Jennifer','https://is4.revolveassets.com/images/p4/n/z/AGUA-WR28_V1.jpg'),
+('Crinkled Skirt', 'women-bottoms', 55.00, false, 'USA', false, 'cotton', '8/05/2023', 'Jennifer','https://bananarepublicfactory.gapfactory.com/webcontent/0053/726/447/cn53726447.jpg'),
 -- Women's Dresses
-('White sundress', 'women-dresses', 145.25, true, 'Mexico', false, 'cotton', '8/05/2023', 'Jennifer',''),
-('Floral sundress', 'women-dresses', 145.25, true, 'Mexico', false, 'cotton', '8/12/2023', 'Jennifer',''),
+('The Fabia Cream Sundress', 'women-dresses', 145.25, true, 'Mexico', false, 'cotton', '8/05/2023', 'Jennifer','https://khaite.com/cdn/shop/files/FABIA_CREAM_0010_1080x.jpg?v=1683310133'),
+('Floral Sundress', 'women-dresses', 145.25, true, 'Mexico', false, 'cotton', '8/12/2023', 'Jennifer','https://us.aguabyaguabendita.com/cdn/shop/products/Pluma-Estelar-Hand-Embroidered-Cotton-Mini-Dress-12586-4-HOVER_768x.progressive.jpg?v=1686335186'),
 -- Men's Tops
 ('Box Cut Tee', 'mens-tops', 30.00, true, 'Turkey', true, 'cotton, polyester', '07/04/2023', 'Sarai', 'https://i1.adis.ws/i/boohooamplience/bmm49231_dark%20grey_xl/dark-grey-oversized-boxy-pique-t-shirt-&-short-set?$product_image_main$'),
 ('Soft Wash Polo', 'mens-tops', 35.99, true, 'China', true, 'cotton, polyester', '07/04/2023', 'Sarai', 'https://bananarepublic.gap.com/webcontent/0053/637/716/cn53637716.jpg'),
@@ -28,8 +28,8 @@ VALUES
 ('Tailored Cut Chinos', 'mens-bottoms', 300.00, false, 'Bangladesh', true, 'cotton, polyester', '07/04/2023', 'Sarai','https://petermanningnyc.com/cdn/shop/products/khaki_720x.png?v=1652204965' ),
 ('Slim Fit Jean Pant', 'mens-bottoms', 300.00, false, 'Bangladesh', true, 'demin, polyester', '07/06/2023', 'Sarai', 'https://www.gap.com/webcontent/0052/283/894/cn52283894.jpg'),
 -- Men's Accessories 
-('Designer Leather Belt Medium Decal', 'mens-belts', 500.00, true, 'Bangladesh', true, 'leather, metal, gold plated', '03/24/2023', 'Sarai', 'https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_418/01/nm_1521261_100000_a'),
-('Designer Leather Belt Small Decal', 'mens-belts', 900.00, true, 'Bangladesh', true, 'leather, metal, gold plated', '03/24/2023', 'Sarai', 'https://media.neimanmarcus.com/f_auto,q_auto:good,ar_4:5,c_fill,dpr_1.0,w_790/01/nm_4029360_100244_m'),
+('Designer Leather Belt Medium Decal', 'mens-belts', 500.00, true, 'Bangladesh', true, 'leather, sterling-silver, gold plated', '03/24/2023', 'Sarai', 'https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_418/01/nm_1521261_100000_a'),
+('Designer Leather Belt Small Decal', 'mens-belts', 900.00, true, 'Bangladesh', true, 'leather, sterling-silver, gold plated', '03/24/2023', 'Sarai', 'https://media.neimanmarcus.com/f_auto,q_auto:good,ar_4:5,c_fill,dpr_1.0,w_790/01/nm_4029360_100244_m'),
 ('Knee-Hight Crew Socks ', 'mens-socks', 30.00, true, 'China', false, 'cotton, polyester', '07/09/2022', 'Sarai', 'https://londonsockcompany.com/cdn-cgi/image/quality=80,format=auto,onerror=redirect,metadata=none/app/uploads/2023/06/Denim-6-Pair_01_NEW_WEB.jpg'),
 ('Structured Fedora', 'mens-hats', 25.00, true, 'China', false, 'cotton, polyester', '04/01/2022', 'Sarai', 'https://tworoadshatco.com/cdn/shop/products/TR_May2022-156_5000x.jpg?v=1650954140'),
 -- Men's Shoes 
